@@ -6,7 +6,7 @@ mkdir -p $LFS/sources
 for f in $(cat $DIST_ROOT/build_env/build_env_list)
 do
     bn=$(basename $f)
-    
+
     if ! test -f $LFS/sources/$bn ; then
         wget $f -O $LFS/sources/$bn
     fi
@@ -32,7 +32,7 @@ cat > $dbhome/.bashrc << EOF
 set +h
 umask 022
 LFS=$LFS
-DIST_ROOT=$DIST_ROOT
+export DIST_ROOT=$DIST_ROOT
 EOF
 
 
