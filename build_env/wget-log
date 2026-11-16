@@ -1,0 +1,16 @@
+--2026-11-15 08:26:47--  https://ftpmirror.gnu.org/glibc/glibc-2.44.tar.xz
+Resolving ftpmirror.gnu.org (ftpmirror.gnu.org)... 209.51.188.79, 2001:470:142::79
+Connecting to ftpmirror.gnu.org (ftpmirror.gnu.org)|209.51.188.79|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: https://gnu.katoptra.org//glibc/glibc-2.44.tar.xz [following]
+--2026-11-15 08:26:47--  https://gnu.katoptra.org//glibc/glibc-2.44.tar.xz
+Resolving gnu.katoptra.org (gnu.katoptra.org)... 172.67.217.5, 104.21.45.170, 2606:4700:3030::6815:2daa, ...
+Connecting to gnu.katoptra.org (gnu.katoptra.org)|172.67.217.5|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 20620544 (20M) [application/x-xz]
+Saving to: ‘/home/vmuser/Ambition_OS/build_env/build_root/sources/glibc-2.44.tar.xz’
+
+home/vmuser/Ambitio  91%[=================>  ]  18.08M  8.08MB/s               /home/vmuser/Ambiti 100%[===================>]  19.67M  8.56MB/s    in 2.3s    
+
+2026-11-15 08:26:50 (8.56 MB/s) - ‘/home/vmuser/Ambition_OS/build_env/build_root/sources/glibc-2.44.tar.xz’ saved [20620544/20620544]
+
